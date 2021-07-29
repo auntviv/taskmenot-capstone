@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import {TaskMeNot} from './components/TaskMeNot';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TaskMeNot />
   </React.StrictMode>,
   document.getElementById('root')
 );
